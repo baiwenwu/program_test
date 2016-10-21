@@ -16,12 +16,20 @@ void printBitsOfByte(uchar ch)
 	}
 	printf("\n");
 }
-void randCreateUcharArr(uchar *arr,u32 len)
+void randFillUcharArr(uchar *arr,u32 len)
 {
+	if(!arr)
+	{
+		printf("生成随机字符串失败!\n");
+		return ;
+	}
 	srand(time(0)); 
-	int i = 0;
+	u32 i = 0;
 	for( ; i < len; i++ )
 	{
-		
+		switch(ran()%4)
+		{
+			case:
+		}
 	}
 }

@@ -10,6 +10,11 @@ typedef unsigned char uchar;
 
 static u32 blockSize=256;
 void printBitsOfByte(uchar ch);
-void randCreateUcharArr(uchar *arr,u32 len);
+void randFillUcharArr(uchar *arr,u32 len);
+void creatUcharArr(uchar **arr,u32 len)
+{
+	*arr=(uchar *)malloc(len*sizeof(uchar));
+	memset(*arr,0,len*sizeof(uchar));
+}
 
 
