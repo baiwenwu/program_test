@@ -21,5 +21,7 @@ u32 getRuns(uchar *src,u32 index,u32 bitsLen)
 
 int main()
 {
-	
+	uchar *src;
+	uchar *cdata;
+	uchar
 }
