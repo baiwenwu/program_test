@@ -1,5 +1,5 @@
 #include "global.h"
-
+#include "bitsArray"
 u32 getRuns(uchar *src,u32 index,u32 bitsLen)
 {
 	u32 num=1;
